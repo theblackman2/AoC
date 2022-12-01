@@ -5,7 +5,7 @@ calories = []
 index = 0
 sum = 0
 while True:
-    if index == len(elfes) - 1:
+    if index == len(elfes):
         break
     if len(elfes[index]) == 0:
         calories.append(sum)
