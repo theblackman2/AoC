@@ -15,4 +15,7 @@ while True:
     sum += int(elfes[index][0])
     index += 1
 
-print(sorted(calories)[-1])
+sortedList = sorted(calories)
+
+print(sortedList[-1])
+print(sortedList[-1] + sortedList[-2] + sortedList[-3])
