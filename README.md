@@ -1,3 +1,3 @@
-# Event of code 2022😀💻❤️
+# Event of code 😀💻❤️
 
-This repository contains my answres to code event powered by <a href="https://adventofcode.com">Event of code</a>
+This repository contains my answers to <a href="https://adventofcode.com">AoC</a>
