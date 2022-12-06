@@ -1,4 +1,5 @@
-tours = [line.split() for line in open("data.txt")]
+with open("data.txt", encoding="utf-8") as file:
+    tours = [line.split() for line in file.read()]
 
 
 def getFormValue(form: str):

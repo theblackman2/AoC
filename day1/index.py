@@ -1,4 +1,4 @@
-elfes = [l.split() for l in open("data.txt")]
+elfes = [line.split() for line in open("sample.txt")]
 
 calories = []
 
@@ -15,7 +15,7 @@ while True:
     sum += int(elfes[index][0])
     index += 1
 
-sortedList = sorted(calories)
+sortedCalories = sorted(calories)
 
-print(sortedList[-1])
-print(sortedList[-1] + sortedList[-2] + sortedList[-3])
+print(sortedCalories[-1])
+print(sortedCalories[-1] + sortedCalories[-2] + sortedCalories[-3])

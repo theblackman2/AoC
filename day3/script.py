@@ -13,10 +13,7 @@ def slpit_list_in_sizes(list: list, size: int) -> list:
 
 
 def intersect_lists(lists: list) -> list:
-    try:
-        return list(set(lists.pop()).intersection(*map(set, lists)))
-    except IndexError:
-        return set()
+    return list(set(lists.pop()).intersection(*map(set, lists)))
 
 
 # First part of challenge
